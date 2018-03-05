@@ -1,0 +1,2 @@
+# GyakHely
+Gyakorlati helyszín
