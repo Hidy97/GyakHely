@@ -1,0 +1,16 @@
+Táblanév: szak
+
+
+id	szakma			pont
+1	tanár			90
+2	gitárfestő		100
+3	asztalos		80
+4	gitárhangoló	80
+5	angol			92
+6	angol fordítás	93
+
+
+Készítsen űrlap-php fájlpárost, 
+amelyben az inputba egy szakmát lehet megadni;
+amennyiben VAN ilyen szakma, írja ki a hozzá tartozó pontszámot;
+ha NINCS ilyen szakma, akkor azt írja ki, hogy "Nincs".

@@ -1,0 +1,41 @@
+/*csslint order-alphabetical: false, box-model: false*/
+
+
+/*  css specificity */
+/*  */
+/* a main menu-n beluli menu item */
+/* .main-menu .main-menu-item { */
+/*     color: blue; */
+/* } */
+/*  */
+/* .main-menu-item { */
+/*     color: black; */
+/* } */
+/*  */
+/* az az elem aminek mindkettő class-a megvan:  */
+/* .main-menu-item.elso-menupont  { */
+/*     color: red; */
+/*  */
+/* } */
+
+body {background-color: #00004d; color: grey; font-family: 'Verdana'}
+
+
+.osszes div{
+    /* vertical-align: middle; */
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.kiskepek {
+    width: 30%
+}
+.deer { margin:0}
+.fallenworld {margin:0 5%; }
+.vikings {margin:0}
+
+.nagykep{
+    width: 100%;
+}

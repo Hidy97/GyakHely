@@ -1,0 +1,9 @@
+body {
+    background-color: coral;
+    margin: 0 auto;
+}
+
+@img {
+    width: cover;
+    background-repeat: no-repeat;
+}

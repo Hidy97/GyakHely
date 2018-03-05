@@ -1,0 +1,169 @@
+/*csslint order-alphabetical: false, box-model: false*/
+
+
+/*  css specificity */
+/*  */
+/* a main menu-n beluli menu item */
+/* .main-menu .main-menu-item { */
+/*     color: blue; */
+/* } */
+/*  */
+/* .main-menu-item { */
+/*     color: black; */
+/* } */
+/*  */
+/* az az elem aminek mindkettő class-a megvan:  */
+/* .main-menu-item.elso-menupont  { */
+/*     color: red; */
+/*  */
+/* } */
+
+body {
+    background:url('szabosag1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+@media screen and (max-width: 400px) and (min-width: 120px) {
+    .menuitem {
+        display: block;
+        background: #f90;
+		width:100%;
+		margin:0;
+    }
+	.submenu { width:90%; margin:0 5%; padding:5px 1%;  background:#f60; }
+}
+
+.main-menu-container {
+    background: linear-gradient(to right, orangered, orangered, orangered);
+    /* ez is kell ahhoz hogy a main-menu kozepen legyen */
+    /* inline elemek esetében, a text-align: center igazít középre */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+.main-menu-item {
+    /* itt állítjuk át a list item típusát blokk szintűről inline-ra: */
+    display: inline-block;
+    font-size: 17px;
+    padding: 20px 10px;
+    background-color: orangered;
+    color: white;
+    /* azért hogy a submenu-t a főmenüpontokhoz képest tudjuk igazítani, az összes főmenüpont: position relative */
+    position: relative;
+    /* animáció hozzáadása */
+    transition: background-color .5s ease-in-out;
+}
+.main-menu-item:hover, .submenu-item:hover {
+    background-color: red;
+}
+
+.main-menu-item:hover > .submenu {
+    /* a submenu akkor jelenik meg ha a main-menu-item-re hoverezünk*/
+    visibility: visible;
+    opacity: 1;
+}
+
+.submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* a submenu pozícióját a document flow-tól függetlenül állítjuk, ezért kell a position absolute*/
+    position: absolute;
+    top: 60px;
+    left: 0;
+    /*alapesetben a submenu nem látszik*/
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+    z-index: 20;
+}
+
+.submenu-item {
+    overflow: hidden;
+    padding: 20px 10px;
+    background-color: orangered;
+    transition: background-color .5s ease-in-out;
+}
+
+ 
+
+.textanim-container {
+  position: relative;
+  max-width: 250px;
+  min-height: 250px;
+  margin: auto;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.textanim-title {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  transition: 0.5s;
+}
+
+.textanim-container:hover .textanim-title {
+  top: 10px;
+  transform: translateY(0);
+}
+
+.textanim-hidden {
+  position: absolute;
+  top: 400px;
+  opacity: 0.5;
+  transition: 0.8s;
+  text-align: left;
+}
+
+.textanim-container:hover .textanim-hidden {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sew{
+    position: absolute;
+    border-radius: 450px;
+    float: right;
+}
+
+/*
+.gombos-menu {
+    display: none;
+}
+.menu-checkbox-input {
+    display: none;
+}
+/*
+/* adjacent sibling selector /
+.menu-checkbox-input:checked ~ .gombos-menu {
+    display: block;
+}
+*/
+/*.dropbtn {
+    position: absolute;
+    margin: 5% auto;
+    padding: 2%;
+    line-height: 1.5;
+    opacity: inherit;
+    background: white;
+    color: blueviolet;
+    }
+.dropbtn:hover {
+    height: auto;
+    overflow: hidden;
+    display: block;
+    }
+*/

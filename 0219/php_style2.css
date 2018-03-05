@@ -1,0 +1,34 @@
+body {
+    background-image: url(./rosesarered.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+}
+form { 
+	background: rgba( 90, 50, 90, 0.997); 
+	color: coral;
+	margin:auto;
+	width:20%;
+	border:0.5px solid rgba( 223, 50, 97, 0.997);
+    border-width: 5px;
+	text-align:center;
+	padding:1%;
+	border-radius:90%;
+	}
+	
+input {
+	outline:none;
+	width:90%;
+	margin:2%;
+	color: rgba( 150, 50, 200, 0.5);
+	border:2px solid rgba( 120, 5, 234, 0.995);
+    transition-delay: 5sec;
+    transition-duration: 10sec;
+	border-radius:32%;
+	padding:3%;
+}
+
+input[type=submit] {
+	background: rgba( 180, 4, 80, 0.995);
+	color:white;
+}

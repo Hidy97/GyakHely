@@ -1,0 +1,60 @@
+<style>
+body { 
+	background:url('szabosag1.jpg'); 		
+	background-repeat: no-repeat;
+	background-size: cover; 
+	margin:0
+}
+
+.szoveg { 
+	/*margin:5%;*/
+	margin:5% auto;
+	padding:2%;
+	line-height:1.5;
+	background:white; 
+	color:black;  
+	}
+
+.menu { width:100%; height:70px; background:#f90; color:white; font-family:Verdana; font-size:20px; line-height:70px; text-align:center; }
+
+.menuitem { position:relative; display:inline-block; margin:0 4%; }
+
+.menuitem a { text-decoration:none; color:white; }
+
+.submenu { position:absolute; top:60px; display:none; text-align:left; background:#f90; padding:5px 10px; line-height:2.2; z-index:20;}
+
+.menuitem:hover .submenu { display:block; }
+
+
+
+
+
+@media screen and (max-width: 400px) and (min-width: 120px) {
+    .menuitem {
+        display: block;
+        background: #f90;
+		width:100%;
+		margin:0;
+    }
+	.submenu { width:90%; margin:0 5%; padding:5px 1%;  background:#f60; }
+}
+</style>
+<DIV class="container">
+
+  <div class="menu">
+    <div class="menuitem"><a href="#">Címoldal</a></div>
+    <div class="menuitem"><a href="#">Szolgáltatások</a></div>
+    <div class="menuitem">Termékek
+
+      <div class="submenu">
+        <div class="sub-menu-item"><a href="#">Állványok</a></div>
+        <div class="sub-menu-item"><a href="#">Fogasok</a></div>
+        <div class="sub-menu-item"><a href="#">Kirakatelemek</a></div>
+      </div>
+
+    </div>
+    <div class="menuitem"><a href="#">Kapcsolat</a></div>
+  </div>
+  
+  <div class="szoveg">Igazából már tavaly megjelent az Apple eszközein a HEIC fényképformátum, hogy az iPhone, az iPad és a Mac gépek kétszer több fájlt tudjanak tárolni, mint korábban, ám ezzel sajnos akadt egy kis gond. A legtöbb hardver és szoftver nem tudja kezelni. Így amikor lekerül az Apple eszközeirõl a fénykép, mondjuk a Facebookra, át kell konvertálni jpeg-gé. A webes használatát igencsak megnehezíti, hogy a HEIC körbe van bástyázva szabadalmakkal, és a web nem szereti a védett technológiákat.</div>
+</DIV>

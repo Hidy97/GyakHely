@@ -1,0 +1,93 @@
+﻿Melyik IP cím link local az alábbiak közül?
+Válasszon ki egyet:
+a. 168.18.152.8
+b. 168.23.24.6
+c. 169.254.1.10
+d. 175.15.23.74
+e. 169.200.215.12
+
+/A c. a helyes válasz./
+
+=============================
+Mi a CIDR jelölése a 10.0.4.0-nak ha a subnet mask 255.255.254.0?
+Válasszon ki egyet:
+a. 10.0.4.0/23
+b. 10.0.4.0/8
+c. 10.0.4.0/24
+d. 10.0.4.0/16
+e. 10.0.4.0/22
+
+/Az a. a helyes válasz./
+
+=============================
+A 198-al kezdődő IP cím melyik osztályba tartozik?
+Válasszon ki egyet:
+a. C
+b. D
+c. A
+d. B
+
+/Az a. válasz a helyes./
+
+=============================
+Húzd be a megfelelő OSI réteget a megfelelő helyre. 
+
+A válasz: /Application Presentation Session Transport Network Data Link Physical / 
+
+
+=============================
+A 192.168.5.10/16-os IP címnek melyik oktetje tartozik a network és melyik a host részéhez?
+
+Válasszon ki egyet:
+a. 192: network, 168.5.10: host
+b. 192.168: network, 5.10: host
+c. 192.168.5: network, 10: host
+
+/A b. válasz a helyes./
+
+=============================
+Válaszd ki a helyes definíciókat
+
+Unicast
+Broadcast
+Multicast
+
+/Mindegyik helyes./
+
+
+=============================
+Húzd az alábbi fogalmakat az arra leg jellemzőbb réteghez.
+
+JPG, PNG, TXT, MP3TCP, UDPHTTP, FTP, SMTP, IMAPNetstat –aoIP CímRj45, RJ11, Cat5, Cat6, Cat5eMAC address, LLC
+
+=============================
+A Melyik paranccsal lehet új IP címet kérni a windowsban?
+Válasszon ki egyet:
+a. ipconfig/all
+b. ipconfig/renew
+c. ipconfig /release
+d. ncpa.cpl
+e. ping
+
+/Az ipconfig/renew parancsal./
+
+
+=============================
+Mi a multicast?
+Válasszon ki egyet:
+a. Az üzenetet csak egy darab célzott résztvevő kaphatja meg.
+b. Az üzenetet csak néhány résztvevő kapja meg
+c. Az üzenetet minden résztvevő megkapja
+
+/A b. válasz a helyes./
+
+=============================
+Egy iskolába felcsatlakozol egy wifire a telefonoddal ( network1 ) aztán lecsatlakozol és egy étteremben is felcsatlakozol egy wifire (network2) ugyanazzal az eszközzel. Lehetséges-e, hogy másik IP címet kap a telefonod network1 és network2 esetén?
+
+Válasszon ki egyet:
+a. Nem, az IP cím minden esetben ugyanaz marad. 
+b. Nem, mert a hálózati maszk változhat csak, de az IP cím nem. 
+c. Igen, az IP cím networkönként változhat. 
+d. Igen, mert minden hálózatban változik a MAC addresse és az IP címe is egy adott eszköznek. 
+
+/A c. válasz a helyes./
